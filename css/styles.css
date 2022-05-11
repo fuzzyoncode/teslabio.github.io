@@ -1,0 +1,137 @@
+/* Typography */
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main > .intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 800;
+}
+
+main > .tagline {
+	font-size: 1.5rem;
+	margin: 1.0 rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
+
+.menu {
+	position: sticky;
+	top: 0;
+	background-color: #10afee;
+	padding: 5px 0px 5px 0px;
+	color: white;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.menu a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+footer {
+	width: 100%;
+	bottom: 0px;
+	background-color: rgb(32, 54, 86);
+	color: #fff;
+	position: absolute;
+	padding-top:10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* accordion*/
+
+.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+  }
+
+  .active, .accordion:hover {
+	background-color: rgb(16, 134, 218); 
+	color: #fff;
+  }
+
+  .panel {
+	padding: 0 18px;
+	display: none;
+	background-color: white;
+	overflow: hidden;
+  }
+
+h2{
+   color: rgb(56, 56, 154);
+   text-align: left;
+   padding-left: 30px;
+}
+
